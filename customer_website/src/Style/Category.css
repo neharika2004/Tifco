@@ -1,0 +1,59 @@
+.category-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff8e1; /* Light yellow background */
+    max-width: 250px;
+    margin: auto;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: #ff9800; /* Orange border on hover */
+  }
+  
+  .category-image {
+    object-fit: contain; /* Contain image to fit nicely within the card */
+    padding: 10px; /* Add some padding to the image */
+  }
+  
+  .category-title {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .category-title:hover {
+    color: #ff9800; /* Orange text color on hover */
+  }
+  .explore-range-card {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff8e1; /* Same light yellow background for consistency */
+    max-width: 250px;
+    margin: auto;
+  }
+  
+  .explore-range-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: #ff9800; /* Orange border on hover */
+  }
+  
+  .explore-range-image {
+    object-fit: contain; /* Ensures the image fits nicely */
+    padding: 10px;
+  }
+  
+  .explore-range-title {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .explore-range-title:hover {
+    color: #ff9800; /* Orange text color on hover */
+  }
+  

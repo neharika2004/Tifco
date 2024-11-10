@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    gap: 20px; /* Space between filters and product grid */
+    padding: 20px;
+  }
+  
+  /* Filters Section */
+  .filters {
+    flex: 0 0 200px; /* Fixed width for filters section */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+  }
+  
+  /* Product list section takes the remaining space */
+  .product-list {
+    flex: 1; /* Takes up remaining space */
+  }
+  
+  /* Product grid inside the product list */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  

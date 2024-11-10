@@ -1,0 +1,61 @@
+/* Offer Header Styling */
+.offer-header {
+    background-color: #ff9800; /* Orange color */
+    color: white;
+    text-align: center;
+    padding: 9px 0;
+    font-size: 0.875rem;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .offer-text {
+    display: inline-block;
+    animation: scroll-text 10s linear infinite;
+  }
+  
+  .offer-code {
+    font-weight: bold;
+  }
+  
+  /* Main Navbar Links Styling */
+  .nav-link {
+    font-size: 1rem;
+    color: #333;
+    text-transform: none;
+    margin-left: 1rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .nav-link:hover {
+    color: #ff9800; /* Hover to match orange */
+  }
+  
+  /* Keyframe animation for scrolling offer text */
+  @keyframes scroll-text {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* Customize icons */
+  .MuiIconButton-root {
+    color: #333;
+  }
+  
+  /* Logo */
+  img {
+    height: 40px;
+    width: auto;
+  }
+  .dropdown-item {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #e0f7fa; /* Light background on hover */
+    color: #00695c; /* Darker green text */
+  }
